@@ -1,0 +1,188 @@
+@import url(https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+. 
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+    color:aqua;
+    font-style: oblique;
+    font-size: 16px;
+    text-align: center;
+    /* display:flexbox; */
+    /* flex-wrap:initial;  */
+    padding-left:0 px;
+    /* padding-top: 0px; */
+    /* padding-right: 10px; */
+    max-width: 10000px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body
+{
+    margin:0;
+}
+
+.banner
+    {
+        position:relative;
+        width: 100% 
+        height:100%; 
+        min-height:100vh; 
+        display:flex; 
+        justify-content:left;
+        align-items: left;
+        background:url(https://images.template.net/wp-content/uploads/2016/08/17070259/Food-Websites-Image.jpg);
+        background-size:80% 85%;
+        background-position:right bottom;
+        text-align:left;
+        background-color:bisque;
+        background-repeat: no-repeat;
+        line-gap-override:initial;
+    }
+.banner .content
+    {
+        max-width: 10000px;
+        text-align:center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.banner .content h1
+    {
+        font-size: 5em;
+        color:navy;
+        text-decoration: aqua;
+        text-align:center;
+        padding: 0px 0px;
+        padding-top: 0px;
+    }
+.option
+    {
+        font-size: 1em;
+        text-align: center;
+        color: rgb(15, 1, 14);
+        background:crimson;
+        display:inline-flex;
+        padding: 10px 20px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        text-decoration: solid;
+        letter-spacing: 2px;
+        transition: 0.5s;
+
+    }
+.option:hover
+    {
+    letter-spacing: 6px;
+
+    }
+header
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:10px 100px;  
+    z-index: 10000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    transition: 0.9s;
+    padding-left:30px;   
+}
+header .navigation 
+{
+    position:fixed;
+    display:flex;
+    /* margin:0; */
+    /* padding-top: 0px; */
+    padding-left:0px;  
+    /* overflow: hidden; */
+    background-color: #333;
+    /* min-height:0px; */
+    list-style-type: none;
+    margin: 0;
+    /* padding-right: 10px; */
+    /* position: -webkit-sticky;  
+    position: sticky;  */
+    top: 0;
+}
+header .navigation li
+{
+    list-style-type: none;
+    display:inline-flex;
+    background-color:black;
+    letter-spacing: 3px;
+    /* padding-right: 10px; */
+    transition: 0.5s;
+    /* margin:0; */
+    /* margin-left: 0px;  */
+    /* padding: 14px 16px; */
+    /* background-color:black; */
+    min-height:2px;
+    /* min: width 0; */
+    /* float:right; */
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color:beige;
+    font-weight: 300;
+    /* width: 100%; */
+    position:relative;
+    /* display:-webkit-flex; */
+    /* color: white; */
+    text-align: center;
+    /* min-height:0px; */
+     padding: 10px 12px;
+    /* background-position: right top; */
+}
+header.sticky .navigation li a
+{
+    color:111; 
+}
+header .navigation li a:hover
+{
+    color: red;
+    letter-spacing: 6px;
+    transition: 0.5s;
+}
+header.sticky
+{
+    background:#333;
+    padding:0px 30px;  
+    /* box-shadow: 0 5px 20px rgba(0,0,0,0.05); */
+}
+section
+{
+    padding:30px;
+}
+.row
+{
+    position:relative;
+    width:100%; 
+    display:flex;
+    justify-content:space-around;
+}
+.row .col50
+{
+    position: relative;
+    width: 50%;
+}
+.titleText
+{
+    color:darkblue;
+    font-size: 2em;
+    font-weight: 300;
+}
+img
+{
+    padding-top: 113px;
+}
+.titleText span
+{
+    color: darkred;
+    font-weight: 1500;
+    font-size: 1.5em;
+}

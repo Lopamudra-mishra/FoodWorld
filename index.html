@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" rel="stylesheet">
+
+</head>
+<body>
+    <header class="sticky">
+        <span>.</span>
+        <!-- <a href="#" class="logo">Food<span>.</span></a> -->
+        <ul class= "navigation">
+            <li><a href="#banner">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <!-- <li><a href="#testimonial">TESTIMONIAL</a></li> -->
+            <li><a href="#expert">EXPERT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h1><b>Food world!</b></h1>
+            <p id="p1">Lorem ipsum, dolorrtoihugiehugyurr sit amet consectetur adipisicing elit. Modi consequuntur optio impedit exercitationem mollitia beatae et ipsa molestias asperiores? ipsum dolor sit amet consectetur, adipisicing elit. Enim commodi eos doloribus voluptatem quia repudiandae fugiat necessitatibus facilis quam nisi ipsam, cum unde, culpa, totam ipsum velit eius. Tempora, vel!, ipsum dolor sit amet consectetur adipisicing elit. Molestiae inventore velit sapiente mollitia quis totam maxime earum, distinctio dolorem reprehenderit maiores amet possimus quidem cupiditate nemo consectetur harum exercitationem! Voluptates!</p>
+            <p></p>
+            <p></p>
+            <a href="menu" class="option"><b>MENU</b></a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi aliquid voluptas iure odio sapiente ratione voluptatum recusandae debitis expedita eveniet quasi, perferendis laboriosam ullam eos illo ut vitae autem ipsam qui nesciunt numquam adipisci reiciendis facilis. Dolores maiores at voluptates, pariatur voluptatum consequuntur aliquam neque eius amet? Aliquam magnam, culpa hic repudiandae sed fuga reprehenderit fugit aspernatur odio expedita quae maiores, quidem temporibus eaque. Nemo rem illum consequatur, distinctio est sed tenetur commodi vitae cum. Sit nobis, soluta sunt nostrum commodi a quibusdam ut fugit, explicabo eaque labore cupiditate. A distinctio fugit corrupti praesentium voluptatibus nihil minima architecto temporibus pariatur?<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam placeat a, assumenda laudantium illo totam cupiditate consequatur culpa ea eligendi, atque deleniti ad aut voluptate in quaerat veritatis minima! Ipsum ipsa, consequuntur debitis nihil fugiat, nam dicta possimus similique quod fugit molestias eum corporis. Natus, corporis officiis possimus sequi maxime culpa blanditiis ab unde ex explicabo ratione repellat saepe quasi cum ea ducimus fugiat fuga reiciendis? Eum ea excepturi laudantium nulla amet cum adipisci beatae consequatur veniam in quo rerum repellendus quisquam fugiat assumenda commodi expedita dolor sed soluta eveniet pariatur, hic tempore. Quae laboriosam natus voluptatem delectus consequuntur nesciunt harum assumenda iusto, ab quaerat optio fugiat est reiciendis velit distinctio minima laudantium eos tempora voluptas eum voluptate repudiandae. Cumque error culpa ut libero at, tempore porro minus sequi officiis, quo eligendi tempora modi dicta repudiandae inventore aut, incidunt architecto possimus. Nam fuga, quia id quisquam quae eligendi aut qui voluptatem, dolores unde impedit commodi cum dolor itaque. Labore minus praesentium, amet ullam ex ipsam sapiente ipsum architecto inventore impedit voluptatem eos. Doloribus in voluptatem neque labore. Amet asperiores inventore est quis saepe in distinctio sit blanditiis ad placeat quisquam excepturi quidem numquam vel, corporis natus, sint debitis nam!</p>
+                </div>
+                <div class="col50">
+                    <div class="imgBx">
+                        <img src="https://restaurantden.wpenginepowered.com/wp-content/uploads/2017/09/free-stock-food-photography-websites.jpg" width="623" height="630">
+                    </div>
+                </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            const header= document.querySelector('header');
+            header.classList.toggle("sticky",window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
